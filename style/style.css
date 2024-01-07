@@ -163,8 +163,8 @@ header, #hot-deal {
 
 .hot-deal-txt * {
     margin-bottom: 24px;
-
 }
+
 
 .hot-deal-txt h2 {
     color: #272727;
@@ -182,5 +182,80 @@ header, #hot-deal {
 
 .hot-deal-img {
     max-width: 318px;
+}
+
+/* instagram */
+.insta-content {
+    margin-top: 130px;
+}
+
+.insta {
+    display: flex;
+    justify-content: space-around;
+    /* max-width: 485px; */
+    gap: 24px;
+}
+
+
+.insta-img img {
+    margin-top: 48px;
+    width: 100%;
+    /* gap: 24px; */
+}
+
+/* latest-deal */
+.latest-deal {
+    margin: 128px 0px;
+}
+
+.news {
+    background-image: url('../image/Rectangle_9.png');
+    background-repeat: no-repeat;
+    padding: 122px 0px;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    gap: 16px;
+}
+
+form input {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    flex-grow: 1;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px;
+    outline: none;
+}
+
+/* footer */
+footer {
+    background: #111010;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 130px 0px
+}
+ 
+.footer-content h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    padding-bottom: 32px;
+
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.40);
 
 }
