@@ -27,7 +27,7 @@ button:hover {
 
 /* header part */
 
-header {
+header, #hot-deal {
     background-color: rgb(223, 84, 118, 0.18);
 }
 
@@ -143,4 +143,44 @@ header {
 .service img {
     padding-top: 0px;
     padding-bottom: 24px;
+}
+
+/* hot-deal */
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.hot-deal-txt {
+    width: 75%;
+    max-width: 550px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.hot-deal-txt * {
+    margin-bottom: 24px;
+
+}
+
+.hot-deal-txt h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    /* margin-bottom: 24px; */
+
+}
+
+.important {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-img {
+    max-width: 318px;
+
 }
