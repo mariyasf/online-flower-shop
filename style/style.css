@@ -35,6 +35,7 @@ header {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
+    /* background-color: #3eaa14; */
 }
 
 .banner {
@@ -85,6 +86,7 @@ header {
     justify-content: space-between;
     gap: 24px;
     align-items: end;
+
 }
 
 .flower-img {
@@ -112,7 +114,6 @@ header {
 
 .flower-img img {
     width: 100%;
-
 }
 
 .flower p {
@@ -123,4 +124,23 @@ header {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+/* service-container */
+
+.service-container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service {
+    margin: 80px;
+}
+
+.service img {
+    padding-top: 0px;
+    padding-bottom: 24px;
 }
