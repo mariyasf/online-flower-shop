@@ -1,0 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* background-color: aqua; */
+}
+
+/* header part */
+
+header {
+    background-color: rgb(223, 84, 118, 0.18);
+}
